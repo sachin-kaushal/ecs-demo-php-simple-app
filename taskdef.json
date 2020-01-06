@@ -10,7 +10,7 @@
         {
             "environment": [],
             "name": "simple-app",
-            "image": "amazon/amazon-ecs-sample",
+            "image": "<IMAGE1_NAME>",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
@@ -34,7 +34,7 @@
         },
         {
             "name": "busybox",
-            "image": "busybox",
+            "image": "<IMAGE2_NAME>",
             "cpu": 10,
             "memory": 500,
             "volumesFrom": [
